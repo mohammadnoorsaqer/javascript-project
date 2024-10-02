@@ -91,5 +91,46 @@
       "price_per_night": 250
     }
   ],
-  "bookings": []
+  "bookings": [
+    {
+      "id": "fd48",
+      "hotelId": 5,
+      "startDate": "2024-10-10",
+      "returnDate": "2024-10-10",
+      "numAdults": "1",
+      "numChildren": "0",
+      "fullName": "MohammadNoorSaqer",
+      "creditCard": "4485177390193136"
+    },
+    {
+      "id": "596d",
+      "hotelId": 2,
+      "startDate": "2024-10-09",
+      "returnDate": "2024-10-10",
+      "numAdults": "1",
+      "numChildren": "0",
+      "fullName": "fdsaf",
+      "creditCard": "4485177390193136"
+    },
+    {
+      "id": "ee5a",
+      "hotelId": 2,
+      "startDate": "2024-10-02",
+      "returnDate": "2024-10-03",
+      "numAdults": "1",
+      "numChildren": "0",
+      "fullName": "sdadsa",
+      "creditCard": "4485177390193136"
+    },
+    {
+      "id": "56b4",
+      "hotelId": 2,
+      "startDate": "2024-10-03",
+      "returnDate": "2024-10-02",
+      "numAdults": "1",
+      "numChildren": "0",
+      "fullName": "MohammadNoorSaqer",
+      "creditCard": "4485177390193136"
+    }
+  ]
 }

@@ -29,6 +29,7 @@ fetch('http://localhost:3000/hotels')
                         <div class="details">
                             <h4>${hotel.name}</h4>
                             <p>${hotel.reviews} Reviews</p>
+             
                                                     <button onclick="bookHotel(${hotel.id}, '${hotel.name}', ${hotel.price_per_night})" class="btn yellow-btn m-auto d-flex">Book Now</button>
                         </div>
                     </div>
@@ -36,15 +37,14 @@ fetch('http://localhost:3000/hotels')
             document.getElementById('hotel-container').innerHTML += hotelCard;
         });
     });
-
+const hotelBookings = {};
 // 4. Booking Modal & Confirmation Functions
 function bookHotel(hotelId, hotelName, hotelPrice) {
-    const hotelDetails = `Hotel: ${hotelName}<br>Price per night: $${hotelPrice}`;
+    const hotelDetails = `Hotel: ${hotelName}<br>Price per night: ${hotelPrice}`;
     document.getElementById('hotelDetails').innerHTML = hotelDetails;
     $('#bookingModal').modal('show');
     document.getElementById('confirmBooking').onclick = () => confirmBooking(hotelId);
 }
-
 function confirmBooking(hotelId) {
     const startDate = document.getElementById('bookingDate').value;
     const returnDate = document.getElementById('returnDate').value;
@@ -70,17 +70,31 @@ function confirmBooking(hotelId) {
         alert('Please fill out all required fields.');
         return;
     }
-
+if(startDate>=returnDate)
+{
+    return alert('please choose a valid date.')
+}
     // Check if the hotel is available on the start date
     if (!isDateAvailable(hotelId, startDate)) {
-        alert('The hotel is booked on the start date. Please choose another date.');
+        alert('This Room Is Booked in this day ,please choose another day');
         return;
     }
+        // Check if the hotel has reached the maximum number of bookings
+        if (!hotelBookings[hotelId]) {
+            hotelBookings[hotelId] = 0; // Initialize if it doesn't exist
+        }
+    
+        if (hotelBookings[hotelId] >= 10) {
+            alert('This hotel is fully booked. Please look for other hotels.');
+            return;
+        }
+     
 
     // Prepare booking data
     const bookingData = {
         hotelId, startDate, returnDate, numAdults, numChildren, fullName, creditCard
     };
+    hotelBookings[hotelId]++;    
 
     // Send booking data to the server
     fetch('http://localhost:3000/bookings', {
@@ -92,7 +106,7 @@ function confirmBooking(hotelId) {
     })
     .then(response => response.json())
     .then(data => {
-        alert('Booking successful!');
+        alert('Booking confirmed! Enjoy your stay!');
         bookedDates[hotelId] = bookedDates[hotelId] || [];
         bookedDates[hotelId].push(startDate);
         $('#bookingModal').modal('hide');
