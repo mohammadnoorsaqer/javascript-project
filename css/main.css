@@ -3192,7 +3192,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .destinations-area .single-destinations .details .package-list li {
-  border-bottom: 1px solid #eee;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
@@ -3203,10 +3202,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .destinations-area .single-destinations .details .price-btn {
-  background: #f8b600;
-  color: #222;
-  font-weight: 600;
-  padding: 5px 20px;
+    /* background: #f8b600; */
+    color: #222;
+    font-weight: 600;
+    /* padding: 5px 20px; */
+    font-size: 30px;
 }
 
 .destinations-area .single-destinations:hover {
