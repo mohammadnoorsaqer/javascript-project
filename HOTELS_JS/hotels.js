@@ -29,7 +29,7 @@ fetch('http://localhost:3000/hotels')
                         <div class="details">
                             <h4>${hotel.name}</h4>
                             <p>${hotel.reviews} Reviews</p>
-                                                    <button onclick="bookHotel(${hotel.id}, '${hotel.name}', ${hotel.price_per_night})" class="btn btn-primary m-auto d-flex">Book Now</button>
+                                                    <button onclick="bookHotel(${hotel.id}, '${hotel.name}', ${hotel.price_per_night})" class="btn yellow-btn m-auto d-flex">Book Now</button>
                         </div>
                     </div>
                 </div>`;

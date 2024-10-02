@@ -4494,3 +4494,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-text a, .footer-text i {
   color: #f8b600;
 }
+.yellow-btn
+{
+  background-color:#f8b600 ;
+  color: white;
+}
+.yellow-btn:hover
+{
+  background-color: white;
+  color: #f8b600;
+  border: 1px solid #f8b600 ;
+}
