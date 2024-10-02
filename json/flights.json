@@ -1,0 +1,174 @@
+{
+  "flights": [
+    {
+      "id": "1",
+      "type": "Cheap Packages",
+      "destination": "Los Angeles",
+      "price": 1099
+    },
+    {
+      "id": "2",
+      "type": "Cheap Packages",
+      "destination": "Tokyo",
+      "price": 1199
+    },
+    {
+      "id": "3",
+      "type": "Cheap Packages",
+      "destination": "Barcelona",
+      "price": 1299
+    },
+    {
+      "id": "4",
+      "type": "Cheap Packages",
+      "destination": "Rio de Janeiro",
+      "price": 1399
+    },
+    {
+      "id": "5",
+      "type": "Cheap Packages",
+      "destination": "Cairo",
+      "price": 949
+    },
+    {
+      "id": "6",
+      "type": "Cheap Packages",
+      "destination": "Istanbul",
+      "price": 1099
+    },
+    {
+      "id": "7",
+      "type": "Luxury Packages",
+      "destination": "Paris",
+      "price": 2499
+    },
+    {
+      "id": "8",
+      "type": "Luxury Packages",
+      "destination": "Dubai",
+      "price": 2799
+    },
+    {
+      "id": "9",
+      "type": "Luxury Packages",
+      "destination": "Rome",
+      "price": 2599
+    },
+    {
+      "id": "10",
+      "type": "Luxury Packages",
+      "destination": "Bangkok",
+      "price": 2699
+    },
+    {
+      "id": "11",
+      "type": "Luxury Packages",
+      "destination": "Sydney",
+      "price": 2899
+    },
+    {
+      "id": "12",
+      "type": "Luxury Packages",
+      "destination": "London",
+      "price": 2999
+    },
+    {
+      "id": "13",
+      "type": "Camping Packages",
+      "destination": "Grand Canyon",
+      "price": 599
+    },
+    {
+      "id": "14",
+      "type": "Camping Packages",
+      "destination": "Yellowstone",
+      "price": 699
+    },
+    {
+      "id": "15",
+      "type": "Camping Packages",
+      "destination": "Zion National Park",
+      "price": 499
+    },
+    {
+      "id": "16",
+      "type": "Camping Packages",
+      "destination": "Yosemite",
+      "price": 799
+    },
+    {
+      "id": "17",
+      "type": "Camping Packages",
+      "destination": "Joshua Tree",
+      "price": 749
+    },
+    {
+      "id": "18",
+      "type": "Camping Packages",
+      "destination": "Acadia National Park",
+      "price": 649
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1727873302847",
+      "destination": "Los Angeles",
+      "price": "1099",
+      "fullName": "moahjhasdfdsjfdhsdsjkfd",
+      "email": "red.xr55@gmail.com",
+      "creditCard": "343434343",
+      "expDate": "43434343",
+      "cvc": "34343434",
+      "bookingDate": "2024-10-02",
+      "bookingTime": "03:43"
+    },
+    {
+      "id": "1727873316455",
+      "destination": "Los Angeles",
+      "price": "1099",
+      "fullName": "moahjhasdfdsjfdhsdsjkfd",
+      "email": "red.xr55@gmail.com",
+      "creditCard": "343434343",
+      "expDate": "434343434",
+      "cvc": "343434",
+      "bookingDate": "2024-10-02",
+      "bookingTime": "15:43"
+    },
+    {
+      "id": "1727873613602",
+      "destination": "",
+      "price": "",
+      "fullName": "ghghghg",
+      "email": "haneen.abumazrou@gmail.com",
+      "creditCard": "656565656",
+      "expDate": "565656",
+      "cvc": "6565",
+      "bookingDate": "2024-10-02",
+      "bookingTime": "00:12"
+    },
+    {
+      "id": "1727874344857",
+      "destination": "Los Angeles",
+      "price": "1099",
+      "fullName": "dsfddd",
+      "email": "haneen.abumazrou@gmail.com",
+      "creditCard": "5454",
+      "expDate": "565656",
+      "cvc": "6565",
+      "bookingDate": "2024-10-02",
+      "bookingTime": "00:12"
+    },
+    {
+      "id": "1727874821079",
+      "destination": "Zion National Park",
+      "price": "499",
+      "fullName": "mojhaamad",
+      "email": "uig7914@gmail.com",
+      "creditCard": "3343434343",
+      "expDate": "2323",
+      "cvc": "323",
+      "bookingDate": "2024-10-02",
+      "bookingTime": "00:12"
+    }
+  ]
+}
