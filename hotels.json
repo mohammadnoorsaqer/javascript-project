@@ -93,191 +93,44 @@
   ],
   "bookings": [
     {
-      "id": "89e2",
-      "hotelId": 2,
-      "startDate": "2024-01-01"
-    },
-    {
-      "id": "7ea6",
-      "hotelId": 6,
-      "startDate": "2024-01-01"
-    },
-    {
-      "id": "a467",
-      "hotelId": 2,
-      "startDate": "2024-01-01"
-    },
-    {
-      "id": "1b02",
-      "hotelId": 2,
-      "startDate": "2024-01-01"
-    },
-    {
-      "id": "9011",
-      "hotelId": 2,
-      "startDate": "2024-01-01"
-    },
-    {
-      "id": "0e3d",
-      "hotelId": 2,
-      "startDate": "2024-01-01"
-    },
-    {
-      "id": "41a3",
-      "hotelId": 2,
-      "startDate": "2024-01-01"
-    },
-    {
-      "id": "77d0",
-      "hotelId": 1,
-      "startDate": "2024-01-01"
-    },
-    {
-      "id": "7c02",
-      "hotelId": 3,
-      "startDate": "2024-01-01"
-    },
-    {
-      "id": "8ac5",
+      "id": "fd48",
       "hotelId": 5,
-      "startDate": "2024-01-01"
-    },
-    {
-      "id": "92c2",
-      "hotelId": 2,
-      "startDate": "1-1-2024"
-    },
-    {
-      "id": "3ca1",
-      "hotelId": 2,
-      "startDate": "3-1-2024"
-    },
-    {
-      "id": "6c9d",
-      "hotelId": 2,
-      "startDate": "2024-10-03"
-    },
-    {
-      "id": "3d71",
-      "hotelId": 1,
-      "startDate": "2024-10-24"
-    },
-    {
-      "id": "941b",
-      "hotelId": 5,
-      "startDate": "2024-10-24"
-    },
-    {
-      "id": "8d71",
-      "hotelId": 2,
-      "startDate": "2024-10-01"
-    },
-    {
-      "id": "794d",
-      "hotelId": 3,
-      "startDate": "2024-10-16"
-    },
-    {
-      "id": "fcaf",
-      "hotelId": 1,
-      "startDate": "2024-10-31"
-    },
-    {
-      "id": "040d",
-      "hotelId": 2,
-      "startDate": "2024-10-31"
-    },
-    {
-      "id": "ea47",
-      "hotelId": 6,
-      "startDate": "2024-10-17"
-    },
-    {
-      "id": "0605",
-      "hotelId": 3,
-      "startDate": "2024-10-04"
-    },
-    {
-      "id": "f798",
-      "hotelId": 2,
-      "startDate": "2024-10-28",
-      "returnDate": "2024-10-28",
-      "adults": "1",
-      "children": "2"
-    },
-    {
-      "id": "c803",
-      "hotelId": 2,
-      "startDate": "2024-10-18",
-      "returnDate": "2024-10-08",
-      "adults": "1",
-      "children": "0"
-    },
-    {
-      "id": "a7d5",
-      "hotelId": 2,
-      "startDate": "2024-10-11",
-      "returnDate": "2024-10-18",
-      "adults": "1",
-      "children": "0"
-    },
-    {
-      "id": "b54c",
-      "hotelId": 6,
       "startDate": "2024-10-10",
-      "returnDate": "2024-10-24",
-      "adults": "1",
-      "children": "0"
-    },
-    {
-      "id": "a116",
-      "hotelId": 2,
-      "startDate": "2024-10-17",
       "returnDate": "2024-10-10",
-      "adults": "1",
-      "children": "0"
+      "numAdults": "1",
+      "numChildren": "0",
+      "fullName": "MohammadNoorSaqer",
+      "creditCard": "4485177390193136"
     },
     {
-      "id": "707b",
+      "id": "596d",
       "hotelId": 2,
-      "startDate": "2024-10-24",
-      "returnDate": "2024-10-16",
-      "adults": "1",
-      "children": "0"
-    },
-    {
-      "id": "ca36",
-      "hotelId": 1,
-      "startDate": "2024-10-04",
-      "returnDate": "2024-10-15",
-      "adults": "2",
-      "children": "2"
-    },
-    {
-      "id": "6b51",
-      "hotelId": 1,
-      "startDate": "2024-10-23",
-      "returnDate": "2024-10-17",
-      "adults": "1",
-      "children": "0"
-    },
-    {
-      "id": "84e4",
-      "hotelId": 2,
-      "startDate": "2024-11-08",
-      "returnDate": "2024-11-01",
-      "adults": "1",
-      "children": "0"
-    },
-    {
-      "id": "e902",
-      "hotelId": 2,
-      "startDate": "2024-10-05",
+      "startDate": "2024-10-09",
       "returnDate": "2024-10-10",
-      "adults": "1",
-      "children": "0",
-      "fullName": "mohammadnoor",
-      "creditCard": "4111111111111111"
+      "numAdults": "1",
+      "numChildren": "0",
+      "fullName": "fdsaf",
+      "creditCard": "4485177390193136"
+    },
+    {
+      "id": "ee5a",
+      "hotelId": 2,
+      "startDate": "2024-10-02",
+      "returnDate": "2024-10-03",
+      "numAdults": "1",
+      "numChildren": "0",
+      "fullName": "sdadsa",
+      "creditCard": "4485177390193136"
+    },
+    {
+      "id": "56b4",
+      "hotelId": 2,
+      "startDate": "2024-10-03",
+      "returnDate": "2024-10-02",
+      "numAdults": "1",
+      "numChildren": "0",
+      "fullName": "MohammadNoorSaqer",
+      "creditCard": "4485177390193136"
     }
   ]
 }
