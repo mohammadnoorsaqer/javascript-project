@@ -2371,8 +2371,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #logo {
   padding-left: 15px;
+ 
 }
 
+#logo img{
+   width: 100px;
+   border-radius: 2px;
+  
+
+}
 #nav-menu-container {
   padding-right: 15px;
 }
