@@ -197,23 +197,31 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						</div>
 						<div class="modal-body">
 							<div id="hotelDetails"></div>
-							<label for="fullName">Full Name:</label>
-							<input type="text" id="fullName" class="form-control" required>
+							<div class="row">
+								<div class="col-md-6">
+									<label for="fullName">Full Name:</label>
+									<input type="text" id="fullName" class="form-control" required>
+									<label for="bookingDate">Start Date:</label>
+									<input type="date" id="bookingDate" class="form-control" required>
+									<label for="returnDate">Return Date:</label>
+									<input type="date" id="returnDate" class="form-control" required>
+									<label for="numAdults">Adults:</label>
+									<input type="number" id="numAdults" class="form-control" min="1" value="1" required>
 			
-							<label for="bookingDate">Start Date:</label>
-							<input type="date" id="bookingDate" class="form-control" required>
-							
-							<label for="returnDate">Return Date:</label>
-							<input type="date" id="returnDate" class="form-control" required>
+
+								</div>
+								<div class="col-md-6">
+									<label for="numChildren">Children:</label>
+									<input type="number" id="numChildren" class="form-control" min="0" value="0">
+									<label for="creditCard">Credit Card Number:</label>
+									<input type="text" id="creditCard" class="form-control" required>
+									<label for="expiredDate">Expired Date:</label>
+									<input type="text" id="expiredDate" class="form-control">
 			
-							<label for="numAdults">Adults:</label>
-							<input type="number" id="numAdults" class="form-control" min="1" value="1" required>
-			
-							<label for="numChildren">Children:</label>
-							<input type="number" id="numChildren" class="form-control" min="0" value="0">
-			
-							<label for="creditCard">Credit Card Number:</label>
-							<input type="text" id="creditCard" class="form-control" required>
+									<label for="cvv">CVV:</label>
+									<input type="text" id="cvv" class="form-control">
+								</div>
+							</div>
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn yellow-btn" id="confirmBooking">Confirm Booking</button>

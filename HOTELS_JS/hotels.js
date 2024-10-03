@@ -45,26 +45,34 @@ function bookHotel(hotelId, hotelName, hotelPrice) {
     $('#bookingModal').modal('show');
     document.getElementById('confirmBooking').onclick = () => confirmBooking(hotelId);
 }
-function confirmBooking(hotelId) {
+async function confirmBooking(hotelId) {
     const startDate = document.getElementById('bookingDate').value;
     const returnDate = document.getElementById('returnDate').value;
     const numAdults = document.getElementById('numAdults').value;
     const numChildren = document.getElementById('numChildren').value;
     const fullName = document.getElementById('fullName').value;
     const creditCard = document.getElementById('creditCard').value;
+    const cvv = document.getElementById('cvv').value;
 
     // Credit card validation function
     function isValidCreditCard(cardNumber) {
         const regex = /^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13}|6(?:011|5[0-9]{2})[0-9]{12}|2(?:22|7[0-9]|8[0-9])\d{12})$/;
         return regex.test(cardNumber);
     }
+    function isValidCVV(cvv) {
+        return /^\d{3,4}$/.test(cvv);
+    }
+    if (!isValidCVV(cvv)) {
+        alert('CVV must be 3 or 4 digits long.');
+        return;
+    }
+
 
     // Validate credit card number
     if (!isValidCreditCard(creditCard)) {
         alert('Please enter a valid credit card number.');
         return;
     }
-
     // Check if all fields are filled
     if (!fullName || !creditCard || !startDate || !returnDate) {
         alert('Please fill out all required fields.');
@@ -92,7 +100,7 @@ if(startDate>=returnDate)
 
     // Prepare booking data
     const bookingData = {
-        hotelId, startDate, returnDate, numAdults, numChildren, fullName, creditCard
+        hotelId, startDate, returnDate, numAdults, numChildren, fullName, creditCard,cvv
     };
     hotelBookings[hotelId]++;    
 
