@@ -4512,3 +4512,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #f8b600;
   border: 1px solid #f8b600 ;
 }
+.closeY:hover
+{
+  background-color: white;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}
